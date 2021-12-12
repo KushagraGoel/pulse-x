@@ -136,6 +136,12 @@ label {
 }
 
 /* Result */
+.suggest{
+ color: #ff0000;
+ padding: 20px 200px 20px;
+ font-size: 20px;
+}
+
 .results{
     padding: 30px 0 0;
 	flex: 1 0 auto;
