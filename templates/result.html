@@ -24,7 +24,7 @@
 		<!-- Result -->
 		<div class="results">
 			{% if prediction==1 %}
-				<h1>Prediction: <span class='danger'>Oops! You have chances of Heart Disease.</span></h1>
+				<h2>Prediction: <span class='danger'>Oops! You have chances of Heart Disease.</span></h2>			        
 			        <p> Some Dietary Suggestions to keep you fit - 
 				<ul>
                                 <li>Eat Green Vegatables to increase Blood Flow.</li>
@@ -37,7 +37,13 @@
 				
 			{% endif %}
 		</div>
-
+                {% if prediction==1 %}
+	           <p> Some Dietary Suggestions to keep you fit - 
+		   <ul>
+                   <li>Eat Green Vegatables to increase Blood Flow.</li>
+                   <li>Avoid oily and junk food.</li>
+                   <li>Exercise daily.</li>
+                   </ul>
 		<!-- Footer -->
        <div class='footer'>
            <div class="contact">
