@@ -24,8 +24,15 @@
 		<!-- Result -->
 		<div class="results">
 			{% if prediction==1 %}
-				<h2>Prediction: <span class='danger'>Oops! You have chances of Heart Disease.</span></h2>		        
-			        
+				<h2>Prediction: <span class='danger'>Oops! You have chances of Heart Disease.</span></h2>
+			        <div class = "suggest">
+                                <p> Some Dietary Suggestions to keep you fit - 
+				<ul>
+                                <li>Eat Green Vegatables to increase Blood Flow.</li>
+                                <li>Avoid oily and junk food.</li>
+                                <li>Exercise daily.</li>
+                                </ul>
+                                </div>  			        
 				
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='safe'>Great! You don't have chances of Heart Disease.</span></h1>
